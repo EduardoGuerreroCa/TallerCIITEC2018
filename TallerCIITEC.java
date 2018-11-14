@@ -9,8 +9,14 @@ public class TallerCIITEC {
 
     public static void main(String[] args) {
       int[]variable={1,2,3,4,5,6,7};
-      foreach(int i : variable){
-        System.out.println(i+" ");
+      for (int i=0;i<=6;i++){
+          resi=(i%0);
+          
+          if(resi==0)
+          {
+              System.out.println("numero" + variable[i]);
+          }
+         
       }
     }
 }
